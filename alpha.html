@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Login</title>
+    <style>
+        /* #img1 {
+            margin: 75px 330px 80px;
+            float: right;
+        }*/
+
+        body {
+            background-color: #e2e8f0;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            box-sizing: border-box;
+        }
+
+        main {
+            width: calc(421px*2);
+            background-color: white;
+            height: 521px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 100px;
+            box-shadow: 10px 15px 30px  rgb(161, 161, 161) , /* x-axis y-axis blur speard color */
+                        -10px -20px 30px rgb(161, 161, 161)
+        }
+
+        .logo-img{
+            width: 70px;
+        }
+
+        .img-div {
+            float: left;
+            width: 421px;
+            height: 521px;
+        }
+
+        .img {
+            /* width: 42px; */
+            display: block;
+        }
+
+        .content-div {
+            float: left;
+            width: 421px;
+            height: 100%;
+            padding: 80px 40px;
+            font-size: 15px;
+        }
+
+        h3{
+            font-size: 28px;
+            font-weight: 500;
+            color: #404859;
+        }
+       
+
+        .common-m{
+            margin-bottom: 10px;
+        }
+
+        input{
+            width: 100%;
+            padding: 10px 20px;
+            border-radius: 5px;
+            /* border-width: 1px;
+            border-color: rgb(161, 161, 161);
+            border-style: solid; */
+            border: 1px solid  rgb(161, 161, 161); /* width style color  */
+        }
+
+        .submit-btn{
+            background-color: #ff6347;
+            color: white;
+            padding: 10px 40px;
+            font-size: 16px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .forgot-text{
+            float: right;
+            margin-top: 10px;
+            text-decoration: none;
+            color: #2020f0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main>
+        <div class="img-div">
+            <!-- img -->
+            <img class="img" src="./image_1.png">
+        </div>
+        
+        <div class="content-div">
+            <!-- content  -->
+            <div class="img2">
+                <img class="logo-img common-m" src="./logo.png" alt="">
+            </div>
+            <!-- <hr style="background-color: rgb(228, 228, 228);border: 1px solid rgb(231, 231, 231);"> -->
+            <div style="background-color: lightgray;width: 100%;height: 1px;">
+
+            </div>
+            <div>
+                <h3 class="common-m">Wecome to Direct !</h3>
+                <p class="common-m">Sign in with your <strong> DIRECT </strong>account to access
+                    Alpha Star Tech</p>
+            </div>
+            <form action="">
+                <div>
+                    <input class="common-m" type="text" placeholder="Username">
+                </div>
+                <div>
+                    <input class="common-m" type="password" placeholder='Password' >
+                </div>
+                <div>
+                    <button class="submit-btn">Submit</button>
+                    <a class="forgot-text" href="#">Forgot Password?</a>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <!-- 
+    <div id="img1">
+        <img src="./image_1.png" alt="">
+    </div>
+
+    <div id=>
+        <p>Welcome to Direct!</p>
+        <p> Sign in with your<strong> Direct </strong>account to access
+            Alpha Star Tech</p>
+        <input type="text" placeholder="UserName" /><br>
+        <input type="password" placeholder="Password" /><br>
+
+        <button>Submit</button>
+        <a href="#"> Forgot Password?</a>
+    </div> -->
+
+</body>
+
+</html>
